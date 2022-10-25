@@ -1,7 +1,5 @@
 'use strict';
 
-let score = 0;
-
 let quest1 = prompt('What is your name?');
 alert('Hey ' + quest1 + '! Nice to meet you!');
 //console.log(alert);
@@ -23,7 +21,6 @@ if (askCountries <= 3) {
 
 } else if (askCountries == 4) {
   alert('You are correct!');
-  score++;
 } else if (askCountries == 5) {
   alert('You went too far ' + quest1 + '! The asnwer is 4.');
 }
