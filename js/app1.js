@@ -113,13 +113,13 @@ for (let i = 0; i < numTries; i++) {
 let totalQuestion = 6;
 
 if (count === 6) {
-  alert('Amazing job ' + quest1 + '! You got ' + totalQuestion + ' right!');
+  alert('Amazing job ' + quest1 + '! You got ' + count + ' out of ' + totalQuestion + ' right!');
 } else if (count === 5 || count === 4) {
-  alert('Great job ' + quest1 + '! You almost got them all right!');
+  alert('Great job ' + quest1 + '! Your score is ' + count + ' out of' + totalQuestion + '.');
 } else if (count === 3 || count === 2) {
-  alert('Hey ' + quest1 + '. You could have definitely done better. But thanks for trying!');
+  alert('Hey ' + quest1 + '. Your score is ' + count + ' out of ' + totalQuestion + '. You could have definitely done better. But thanks for trying!');
 } else if (count === 1 || count === 0) {
-  alert('Hey ' + quest1 + ' that is just sad... You barely made it through the game');
+  alert('Hey ' + quest1 + ' that is just sad... You barely made it through the game. Your score is ' + count + ' out of ' +totalQuestion + '.');
 } else {
   alert('I don\'t even know that happened there.');
 }
