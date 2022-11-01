@@ -5,7 +5,6 @@ alert('Hey ' + userName + '! Nice to meet you!');
 
 let answer1 = prompt('Do you want onions on your pizza?');
 console.log(answer1);
-// String concatenation 
 alert('You answered ' + answer1 + ' to the onions question');
 
 if (answer1 === 'yes'){
@@ -36,7 +35,7 @@ let answer4 = prompt('You have one more topping to choose. Write it below!');
 console.log(answer4);
 alert('I love all your choices but I actually think I will order pasta. Bye!');
 
-// Give different alerts based on the size of pizza ordered
+
 let size = prompt('What size of pizza do you want?');
 console.log('You chose ' + size);
 
@@ -49,12 +48,4 @@ if (size === 'large') {
 } else {
   alert('Sorry, we do not have one of those');
 }
-
-// LOGICAL OR example
-// if (size === 'large' || size === 'medium') {
-// alert('You ordered a a medium or large pizza ');
-//}
-
-// let order = '';
-
 

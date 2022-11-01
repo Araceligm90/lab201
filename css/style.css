@@ -1,15 +1,15 @@
 body {
-    background-color: #71a1d1;
+    background-color: #8db9ba;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif';
 }
 
 h1 {
-    background-color: #81d0e8;
+    background-color: #f1ae67;
     font-size: 60px;
     text-align: center;
     border-style: solid;
     border-width: 5px;
-    border-color: #f4fffb;
+    border-color: #f76866;
     border-radius: 50px;
     margin: 50px 100px 100px 100px;
     padding: 30px 30px;

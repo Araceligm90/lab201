@@ -1,10 +1,10 @@
 body {
-    background-color: #4D6D9A;
+    background-color: #8db9ba;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h1 {
-    background-color: #86B3D1;
+    background-color: #f1ae67;
     text-align: center;
     font-size: 35px;
     font-weight: bolder;
@@ -12,11 +12,11 @@ h1 {
     border-radius: 50px;
     margin: 50px 400px;
     border: solid;
-    border-color: #EDB5BF;  
+    border-color: #f76866;  
 }
 
 h2 {
-    color: #EDB5BF;
+    color: #ef2063;
     font-size: 30px;
     margin: 65px 45px;
 
